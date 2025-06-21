@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-3wamb*4+$35sk3jc0mdofhnu!9!pz@6pqv$j_^-l%*9hh5a9h_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["x"]
+ALLOWED_HOSTS = [
+    'saturdaysdiscussion.onrendor.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
